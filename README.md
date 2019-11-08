@@ -1,17 +1,3 @@
-# Sprint Challenge: Node DB Sprint
-
-## Description
-
-In this challenge, you design and build a Data Model and a RESTful API that stores data into a Relational Database.
-
-## Instructions
-
-**Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
-
-This is an individual assessment, please work on it alone. It is an opportunity to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
-
-If the instructions are not clear, please seek support from your TL and Instructor on Slack.
-
 The Minimum Viable Product must be completed in three hours.
 
 Follow these steps to set up and work on your project:
@@ -38,13 +24,21 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain the difference between `Relational Databases` and `SQL`.
+Explain the difference between Relational Databases and SQL.
 
-- [ ] Why do tables need a `primary key`?
+The relational database is where the data is stored. SQL is the language that manipulates that data, whether with CRUD operations or through adding/joining tables.
 
-- [ ] What is the name given to a table column that references the primary key on another table.
+Why do tables need a primary key?
 
-- [ ] What do we need in order to have a _many to many_ relationship between two tables.
+Tables need a primary key because it makes it easier to monitor and organize data. Not only is it considered an essential part of the normalization process, but you can't connect tables through foreign keys unless you start with a primary key in the parent table.
+
+What is the name given to a table column that references the primary key on another table.
+
+It is a foreign key.
+
+What do we need in order to have a many to many relationship between two tables.
+
+If you want a many-to-many relationship between two tables, you have to have an intermediary table that contains the foreign keys from both parent tables involved. That is what allows you to make that connection.
 
 ## Minimum Viable Product
 
